@@ -1,0 +1,57 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ue-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ueList/UeListWebPart.js",
+          "manifest": "./src/webparts/ueList/UeListWebPart.manifest.json"
+        }
+      ]
+    },
+    "projet-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/projet/ProjetWebPart.js",
+          "manifest": "./src/webparts/projet/ProjetWebPart.manifest.json"
+        }
+      ]
+    },
+    "uv-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/uvForm/UvFormWebPart.js",
+          "manifest": "./src/webparts/uvForm/UvFormWebPart.manifest.json"
+        }
+      ]
+    },
+    "goal-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/goalForm/GoalFormWebPart.js",
+          "manifest": "./src/webparts/goalForm/GoalFormWebPart.manifest.json"
+        }
+      ]
+    },
+    "skill-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/skillForm/SkillFormWebPart.js",
+          "manifest": "./src/webparts/skillForm/SkillFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ListeEvalWebPartStrings": "lib/webparts/listeEval/loc/{locale}.js",
+    "UeListWebPartStrings": "lib/webparts/ueList/loc/{locale}.js",
+    "ProjetWebPartStrings": "lib/webparts/projet/loc/{locale}.js",
+    "UvFormWebPartStrings": "lib/webparts/uvForm/loc/{locale}.js",
+    "GoalFormWebPartStrings": "lib/webparts/goalForm/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "CoeficientsFormWebPartStrings": "lib/webparts/coeficientsForm/loc/{locale}.js",
+    "SkillFormWebPartStrings": "lib/webparts/skillForm/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.7.1",
+    "libraryName": "liste-evaluation",
+    "libraryId": "e3271803-d76c-451d-a82c-229b7dd97d4e",
+    "environment": "spo",
+    "packageManager": "npm",
+    "isCreatingSolution": false,
+    "componentType": "webpart"
+  }
+}

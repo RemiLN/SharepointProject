@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "liste-evaluation-client-side-solution",
+    "id": "e3271803-d76c-451d-a82c-229b7dd97d4e",
+    "version": "1.0.0.2",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/liste-evaluation.sppkg"
+  }
+}
