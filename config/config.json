@@ -33,15 +33,8 @@
           "manifest": "./src/webparts/goalForm/GoalFormWebPart.manifest.json"
         }
       ]
-    },
-    "skill-form-web-part": {
-      "components": [
-        {
-          "entrypoint": "./lib/webparts/skillForm/SkillFormWebPart.js",
-          "manifest": "./src/webparts/skillForm/SkillFormWebPart.manifest.json"
-        }
-      ]
     }
+    
   },
   "externals": {},
   "localizedResources": {
